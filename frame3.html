@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap" rel="stylesheet">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__content _container">
+				<div class="header__logo logo-header">
+					<a href="index.html" alt="">
+						<picture class="logo-header__img">
+							<source srcset="img/smile.svg" type="image/webp">
+							<img src="img/smile.svg" alt="">
+						</picture>
+					</a>
+					<a href="index.html" class="logo-header__text">Личный профиль</a>
+				</div>
+
+
+				<div class="user header__user ">
+					<div data-da="zero,1,1000" class="admin user__admin">
+						<a href="#" class="admin__link">Знакомство</a>
+						<div class="admin__image">
+							<img src="img\portfolio.svg" alt="" class="">
+						</div>
+
+					</div>
+
+					<div class="contacts user__contacts">
+						<a href="tel:+79777093169" class="contacts__number">+7 977 709 31 69</a>
+						<div class="contacts__links links">
+							<a href="http://t.me/kkotovaa" class="links__telegram">Telegram /</a>
+							<a href="http://wa.me/79777093169" class="links__whatsapp">WhatsApp</a>
+						</div>
+					</div>
+				</div>
+				<div class="zero"></div>
+			</div>
+		</header>
+		<main class="page">
+
+			<div class="inner _container">
+				<form action="#" class="form">
+
+					<div class="form__line">
+						<h2 class="form__title">Знакомство! 🚀</h2>
+						<input id="inp" autocomplete="off" type="text" name="form[]" data-error="Ошибка"
+							data-value="Имя Фамилия Отчество" class="input">
+						<input id="inp" autocomplete="off" type="text" name="form[]" data-error="Ошибка"
+							data-value="Серия и номер паспорта" class="input">
+						<input id="inp" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Пароль"
+							class="input">
+						<input id="inp" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Реферал"
+							class="input">
+						<input id="inp" autocomplete="off" type="text" name="form[]" data-error="Ошибка"
+							data-value="Номер для связи" class="input _phone">
+						<div class="form__item">
+							<div class="checkbox">
+								<input id="formAgreement" type="checkbox" checked name="agreement" class="checkbox__input">
+								<label for="formAgreement" class="checkbox__label">Я соглашаюсь с партнёрским и <a
+										href="#">договором</a>
+									принимаю
+									все его правила</label>
+							</div>
+						</div>
+						<button type="submit" class="form__btn btn">Подписать договор!</button>
+					</div>
+				</form>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__content _container">
+				<div class="col-30__middle_frame">
+					<div>
+						<div class="footer__text-help">У меня уже</div>
+
+						<a href="frame4.html" class="col-30__span"> есть аккаунт</a>
+
+					</div>
+
+				</div>
+				<div class="col-30">
+
+					<div class="footer__text">
+						Раз в месяц мы производим выплаты накопившихся % и даем возможность вывести всю сумму
+					</div>
+				</div>
+				<div class="col-30__last">Сделано с ❤️ Hubus & Co</div>
+			</div>
+		</footer>
+	</div>
+	<div class="popup">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__close"></div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup_video">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__close popup__close_video"></div>
+				<div class="popup__video _video"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+	<script src="js/vendors.min.js"></script>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
